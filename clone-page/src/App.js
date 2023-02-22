@@ -10,6 +10,9 @@ import Produtos from './Components/Produtos/Produtos';
 import Acordeon from './Components/Acordeon/Acordeon';
 import Aplicacao from './Components/Aplicacao/Aplicacao';
 import Qualidade from './Components/Qualidade/Qualidade';
+import Contato from './Components/Contato/Contato';
+import Footer from './Components/Footer/Footer';
+import fluter from "./assets/imgs/fluter.png"
 // ..
 
 
@@ -29,6 +32,15 @@ function App() {
     <Acordeon/>
     <Aplicacao/>
     <Qualidade/>
+    <Contato/>
+    <Footer/>
+
+    <div className='whatsap'>
+        <a href="http://lorempixel.com.br/500/400/?1" target="_blank" >
+          <img src={fluter} />
+        </a>
+
+      </div>
     </>
      
   );

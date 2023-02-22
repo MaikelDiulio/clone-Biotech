@@ -11,4 +11,24 @@ body {
   /* max-width: 94vw; */
   background-color:#F4FCFE;
   scroll-behavior: initial;
+  overflow-x: hidden;
+}
+
+.whatsap {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+
+}
+
+
+.whatsap img {
+  width: 50px;
+  box-shadow: 1px gray;
+  /* padding: 0 10px; */
+
 }
