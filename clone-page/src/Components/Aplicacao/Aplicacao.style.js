@@ -33,6 +33,8 @@ flex-wrap:wrap;
     background-color:white;
     width: 28.43vw;
     height:41.33vh ;
+    box-shadow:  0 0 10px 1px #e2e8f5;
+
     border-radius: 10px;
     margin: 10px;
 
