@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  /* max-width: 94vw; */
+  background-color:#F4FCFE;
+  scroll-behavior: initial;
+}
